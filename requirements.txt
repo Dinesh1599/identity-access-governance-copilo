@@ -5,7 +5,7 @@ pydantic==2.9.2
 pydantic-settings==2.5.2
 SQLAlchemy==2.0.36
 requests==2.32.3
-jwt
+PyJWT
 
 # LangChain + Azure OpenAI
 langchain==0.3.7
