@@ -10,6 +10,7 @@ PyJWT
 # LangChain + Azure OpenAI
 langchain==0.3.7
 langchain-openai==0.2.4
+langchain-community
 faiss-cpu==1.12.0
 
 

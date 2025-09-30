@@ -14,6 +14,7 @@ def create_token(payload: dict) -> str:
     ttl = int(os.getenv("TOKEN_TTL_HOURS", "1"))
     data = payload.copy()
     data["exp"] = dt.datetime.utcnow() + dt.timedelta(hours=ttl)
+    print(data)
     return jwt.encode(data, SECRET, algorithm=ALG)
 
 

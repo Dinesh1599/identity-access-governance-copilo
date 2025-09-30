@@ -1,0 +1,19 @@
+Identity and Access Governance Policy
+
+1. Department-based Access:
+   - Only employees in the Finance department may access the finance resource.
+   - HR documents are accessible only by employees in the HR department.
+
+2. Role-based Access:
+   - Approver role is required for approving payments.
+   - Requestor role is required for submitting purchase requests.
+   - Maker and Checker roles must never be assigned to the same user.
+
+3. Segregation of Duties:
+   - Users cannot simultaneously hold the roles of Maker and Checker.
+   - Users cannot simultaneously hold the roles of Requestor and Approver.
+
+4. General Principles:
+   - All access is denied by default unless explicitly allowed.
+   - Least privilege must be applied when granting new permissions.
+   - Access reviews must occur quarterly.
